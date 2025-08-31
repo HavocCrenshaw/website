@@ -1,0 +1,89 @@
+/*
+
+    File: styles.css
+    Date: 8/24/2025
+    Contributors: Havoc Crenshaw
+    Copyright (C) 2025 Havoc Crenshaw. All Rights Reserved.
+
+*/
+
+/* Header */
+#Header {
+    margin: auto;
+    width: 700px;
+}
+
+/* Logo */
+#Logo {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 400px;
+    display: flex;
+}
+
+/* Navigation bar */
+#Navbar {
+    border-radius: 5px;
+    background-color:#5b95d6;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.NavbarItem {
+    color: white;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+a.NavbarItem:link, a.NavbarItem:visited, a.NavbarItem:active {
+    color: white;
+    text-decoration: none;
+}
+
+a.NavbarItem:hover {
+    text-decoration: underline;
+}
+
+/* Main */
+#Main {
+    margin: auto;
+    width: 700px;
+}
+
+/* Header elements*/
+h1 {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+/* iframe */
+iframe {
+    margin: auto;
+    display: block;
+}
+
+/* Text */
+.Text {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+
+}
+
+/* Video */
+.Video {
+    margin: auto;
+    margin-top: 25px;
+    width: 700px;
+    display: flex;
+}
+
+/* Footer */
+#Footer {
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+}
